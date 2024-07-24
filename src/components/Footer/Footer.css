@@ -1,0 +1,64 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.hover2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #212ea0;
+    transition: 0.5 all ease;
+}
+
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (max-width: 600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+
+    .footer ul li{
+        margin: 10px;
+    }
+
+    .footer ul{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
